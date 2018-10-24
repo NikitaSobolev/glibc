@@ -36,6 +36,12 @@ Major new features:
   responses, indicating a lack of DNSSEC validation.  (Therefore, the name
   servers and the network path to them are treated as untrusted.)
 
+* Support for ARC HS cores running Linux has been contributed by Synopsys.
+  Port requires atleast
+    - binutils-2.31 (binutils-2_31-branch: commit 6ce881c15fc4, 2018-10-04)
+    - gcc 8.2 (gcc-8-stable: commit 0d5ba57508c5, 2019-01-29)
+    - Linux kernel 3.9+
+
 Deprecated and removed features, and other changes affecting compatibility:
 
 * The totalorder and totalordermag functions, and the corresponding
